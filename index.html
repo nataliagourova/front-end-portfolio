@@ -1,27 +1,72 @@
+<script>//https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/
+        //check out the hex calculator at www.w3schools.com/colors/colors_hexadecimal.asp
+        //https://www.w3schools.com/colors/colors_rgb.asp
+        //pxel - absolute value
+        //rem - relative to the unit font size, relative units of measurement
+
+</script>
 <!DOCTYPE html>
 <html lang="en">
 
     <head>
         <meta charset="utf-8">
         <title>Home</title>
-        <Style>
+        <style>
             h1 {
                 color: purple;
             }
-
             p {
                 color: red;
             }
-
             body {
                 background-color: dodgerblue;
             }
-        </Style>
+            .purple.text {
+                color: rgb(0, 0, 225, .5);
+            }
+            .important{
+                font-weight: bold;
+            }
+            .important:hover {
+                background-color: #0000FF; 
+            }
+            #lead-paragraph {
+                color:purple;
+                font-weight: bold;
+            }
+            a[href="https://imagecomics.com/"]{
+                background-color: orange;
+                padding: 1rem;
+            }
+            a[href="http://storm.wnba.com/"] {
+                background-color: blue;
+            }
+            h1 {
+                color: hsla(240, 100%, 100%, .5);
+                border-style: solid;
+                border-width: 1px;
+                border-color: red;
+            }
+            p.important {
+                width: 75%;
+            }
+            img {
+                border-style: dashed;
+                border-color: orange;
+                border-width: 3px;
+                width: 25%;
+            }
+        </style>
     </head>
 
     <body>
         <h1>Welcome</h1>
-        <p>Everything is fine!</p>
+        <p class="purple-text">Everything is fine!</p>
+        <p class="important purple-text">Some really important stuff</p>
+        <p id="lead-paragraph">Today is a happy day</p>
+        <a href="http://storm.wnba.com">National WNBA Champions, Seattle Storm</a>
+        <a href="https://imagecomics.com">Check out some awesome independent comics</a>
+        <img src="kitten.jpg" alt="An adorable image of a grey kitten with blue eyes and brown woven wicker basket.">
     </body>
 
 </html>
