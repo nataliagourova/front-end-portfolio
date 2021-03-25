@@ -1,65 +1,127 @@
+.b {
+  background-image: url('../images/artCenter.jpg');
+  opacity: 0.75;
+  background-clip: content-box;
+  background-blend-mode: screen;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3rem;
+  font-family: 'Roboto', Arial, sans-serif;
+}
 h1 {
-    color: #252E30;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-width: 1px;
-    border-color: #ff6666;
-  }
-  p {
-    color: #4f1f19;
-  }
-  body {
-    background-color: #EEF9FA;
-    opacity: 0.8;
-  }
-  section {
-      padding: 1rem
-  }
-  .gray-text {
-     color: #660000;
-  }
-  .important {
-    font-weight:bold;
-  }
-  #lead-paragraph {
-    color: #321410; 
-  }
-  #heart {
-      color: red;
-  }
-  .important:hover {
-    background-color:pink;
-  }
-  p.important {
-    width: 75%;
-  }
-  a[href="https://github.com/nataliagourova/front-end-lesson1asst/"] {
-    color: #cc0000;
-    background-color: #ffe6e6;
+  color: #330000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  color: #4f1f19;
+}
+section {
     padding: 1rem;
+}
+ul {
+  list-style-type: none;
+}
+.box {
+  width: 70%;
+  border: 3px ridge rgb(37, 35, 37);
+  background:  rgb(215, 235, 241);
+  margin: 2rem;
+  padding-left: 5%;
+}
+.box2 {
+  height: 8%;
+  padding: 1em;
+  padding-left: 5%;
+  text-align: left;
+  background: rgb(44, 161, 190);
+  color: white;
+  font-size: 25px;
+  margin-top: 0;
   }
-  a[href="https://github.com/nataliagourova/markdown-portfolio/"] {
-    color: #800000;
-    background-color: #ffe6e6;
-  }
-  a[href="index.html/"] {
-      color: #4d0000;
-    background-color: #ffe6e6;
-  }
-  h1 {
-    color: #e60000;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #ff6666;
-  }
-
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: dashed;
-    border-color: #330000;
-    border-width: 3px;
-    width:25%;
-  }
+.container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  padding:3px;
+}
+.gray-text {
+    color: #660000;
+}
+.fa-home {
+  font-size: 48px;
+  color: #660000;
+}
+.fa-github-square {
+  font-size: 48px; 
+  color: #252E30;
+}
+.fa-linkedin {
+  font-size: 48px; 
+  color: #252E30;  
+}
+.fa-github {
+  font-size: 48px; 
+  color: #252E30;
+}
+.important {
+  font-weight:bold;
+}
+.space {
+  margin: 1rem;
+}
+.lead-paragraph {
+  color: #321410; 
+}
+#bg {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(114, 228, 248);
+  clip-path: polygon(100% 1%, 100% 49%, 49% 99%, 0% 99%, 0 0);
+  font-family: 'Roboto', Arial, sans-serif;
+}
+#left {
+  padding-left: 5%;
+}
+#heart {
+    color: red;
+}
+.important:hover {
+  background-color:#fffefe;
+}
+p.important {
+  width: 75%;
+}
+a[href="https://github.com/nataliagourova/front-end-lesson1asst/"] {
+  color: #cc0000;
+  background-color: #ffe6e6;
+  padding: 1rem;
+}
+a[href="https://github.com/nataliagourova/markdown-portfolio/"] {
+  color: #800000;
+  background-color: #464545;
+}
+a[href="https://github.com/nataliagourova"] {
+  color: #800000;
+}
+a[href="index.html/"] {
+    color: #4d0000;
+  background-color: #464545;
+}
+.icon {
+  font-size:48px;
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-top: 2%;
+  border-style: dashed;
+  border-color: #330000;
+  border-width: 3px;
+  width:15%;
+}
