@@ -125,3 +125,41 @@ img {
   border-width: 3px;
   width:15%;
 }
+ol:nth-of-type(1) {
+  list-style-type: none;
+  padding: 1rem;    
+  }
+ol li:nth-child(even) {
+  background-color: rgb(139, 132, 132)
+}
+ol li:nth-child(odd) {
+  background-color: rgb(240, 255, 240);
+  background-size: auto;
+}
+box:hover {
+  transition-property: font-size;
+  transition-duration: 1s;
+  border: 3px
+   solid rgb(3, 22, 3);
+}
+a:hover {
+  color: rgb(19, 18, 18);
+  font-weight: bold;
+  font-size: 150%;
+}
+a:hover {
+    transition: font-size 1s ease-out;
+}
+a:link {
+  text-decoration: none;
+}
+.wrapper{
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+.wrapper:hover {
+  transition: 2s;
+  transform: rotateY(180deg);
+  }
