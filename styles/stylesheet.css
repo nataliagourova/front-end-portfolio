@@ -1,0 +1,298 @@
+.b {
+  background-image: url('../images/artCenter.jpg');
+  opacity: 0.75;
+  background-clip: content-box;
+  background-blend-mode: screen;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3rem;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+h1 {
+  color: #330000;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  color: #4f1f19;
+}
+section {
+    padding: 1rem;
+}
+ul {
+  list-style-type: none;
+}
+.box {
+  width: 70%;
+  border: 3px ridge rgb(37, 35, 37);
+  background:  rgb(215, 235, 241);
+  margin: 2rem;
+  padding-left: 5%;
+}
+.box2 {
+  height: 8%;
+  padding: 1em;
+  padding-left: 5%;
+  text-align: left;
+  background: rgb(44, 161, 190);
+  color: white;
+  font-size: 25px;
+  margin-top: 0;
+  }
+.container {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  padding:3px;
+}
+.gray-text {
+    color: #660000;
+}
+.fa-arrow-circle-right {
+  font-size: 48px;
+  color: #252E30;  
+}
+.fa-arrow-circle-left {
+  font-size: 48px;
+  color: #252E30;    
+}
+.fa-home {
+  font-size: 48px;
+  color: #252E30;
+}
+.fa-github-square {
+  font-size: 48px; 
+  color: #252E30;
+}
+.fa-linkedin {
+  font-size: 48px; 
+  color: #252E30;  
+}
+.fa-github {
+  font-size: 48px; 
+  color: #252E30;
+}
+.fa-envelope-square {
+  font-size: 48px; 
+  color: #252E30;  
+}
+.important {
+  font-weight:bold;
+}
+.space {
+  margin: 1rem;
+}
+.lead-paragraph {
+  color: #321410; 
+}
+#bg {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(114, 228, 248);
+  clip-path: polygon(100% 1%, 100% 49%, 49% 99%, 0% 99%, 0 0);
+  font-family: 'Roboto', Arial, sans-serif;
+}
+#left {
+  padding-left: 5%;
+}
+#heart {
+    color: red;
+}
+.important:hover {
+  background-color:#fffefe;
+}
+p.important {
+  width: 75%;
+}
+a[href="https://github.com/nataliagourova/front-end-lesson1asst/"] {
+  color: #cc0000;
+  background-color: #ffe6e6;
+  padding: 1rem;
+}
+a[href="https://github.com/nataliagourova/markdown-portfolio/"] {
+  color: #800000;
+  background-color: #464545;
+}
+a[href="https://github.com/nataliagourova"] {
+  color: #800000;
+}
+a[href="index.html/"] {
+    color: #4d0000;
+  background-color: #464545;
+}
+.icon {
+  font-size:48px;
+}
+img {
+  display: block;
+  margin-right: auto;
+  margin-top: 2%;
+  border-style: dashed;
+  border-color: #330000;
+  border-width: 3px;
+  width:15%;
+}
+ol:nth-of-type(1) {
+  list-style-type: none;
+  padding: 1rem;    
+  }
+ol li:nth-child(even) {
+  background-color: rgb(139, 132, 132)
+}
+ol li:nth-child(odd) {
+  background-color: rgb(240, 255, 240);
+  background-size: auto;
+}
+box:hover {
+  transition-property: font-size;
+  transition-duration: 1s;
+  border: 3px
+   solid rgb(3, 22, 3);
+}
+a:hover {
+  color: rgb(19, 18, 18);
+  font-weight: bold;
+  font-size: 150%;
+}
+a:hover {
+    transition: font-size 1s ease-out;
+}
+a:link {
+  text-decoration: none;
+}
+/* .wrapper{
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+}
+.wrapper:hover {
+  transition: 2s;
+  transform: rotateY(180deg);
+  } */
+/* third page */
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 1rem;
+}
+
+input[type=submit] {
+    background-color: #252E30;
+    border: none;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+input[type=password]:focus {
+  background-color: seagreen;
+  outline: none;
+}
+
+input {
+  border-radius: 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset input {
+  display: inline;
+}
+
+/* Hide the browser's default checkbox by inserting this entire block. */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Customize the labels and the pointer */
+.checkbox label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-top: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* create a custom checkbox for use in the span elements*/
+.checkmark {
+  position: absolute; /*relative to the parent element*/
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox label:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When a checkbox is checked, add a blue background */
+.checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkmark:after {
+  display: block;
+}
+
+/* Style the chackmar/indicator */
+.checkbox .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.contact-background {
+  background-color: #add8e6;
+  margin: 3rem;
+  font-family: 'Roboto', Arial, sans-serif;
+}
+.box3 {
+  height: 8%;
+  padding: 1em;
+  padding-left: 5%;
+  text-align: left;
+  /* background: rgb(44, 161, 190); */
+  /* color: white; */
+  font-size: 22px;
+  margin-top: 0;
+  }
+.box4 {
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  }

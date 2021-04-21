@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me Webpage</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d2e443442a.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+<body class="contact-background">
+    <nav class=wrapper>
+        <a href="about-me.html"> <i class="fas fa-arrow-circle-left"></i></a>
+        <a href="index.html"> <i class="fas fa-home"></i></a>
+    </nav>
+    <h1 class="box4">Contact Me</h1>
+    <form method="GET">
+        <fieldset>
+            <label>Your Name:
+            <input type="text" name="inquirorName">
+            </label>
+            <label>Last Name:
+            <input type="text" name="inquirorName">   
+            </label>
+        </fieldset>
+        <label>Company:
+            <input type="text" name="inquirorCompany">
+          </label> 
+          <label>Title:
+            <input type="text" name="inquirorTitle">
+          </label> 
+        <label>Your email address:
+          <input type="text" name="inquirorEmail" required>
+        </label> 
+        <label>Your phone:
+            <input type="text" name="inquirorPhone">
+        </label> 
+
+        <fieldset>
+            <legend>What is your preferred method of contact?</legend>
+            <label>
+                <input type="radio" name="special" value="emialPreferred">Email
+            </label>
+            <label>
+                <input type="radio" name="special" value="phonePreferred">Phone
+            </label>
+            <label>
+                <input type="radio" name="special" value="LinkedInPreferred">LinkedIn message
+            </label>
+            <label>
+                <input type="radio" name="special" value="anyContactPreferred">No preference
+                </label>
+            </fieldset>
+        <div class="box4">
+            <fieldset class="checkbox">
+            <legend>What types of opportunities would you like to discuss?</legend>
+            <label>
+            <input type="checkbox" name="opportunities" value="Internship">Internship
+            <span class="checkmark"></span>
+            <!-- here we are hiding the browser's default checkboxes, and creating our own we can <style></style> -->
+            </label>
+            <label>
+            <input type="checkbox" name="opportunitied" value="Full time position">Full time position
+            <span class="checkmark"></span>
+            </label>
+            <label>
+            <input type="checkbox" name="opportunities" value="Contract position">Contract position
+            <span class="checkmark"></span>
+            </label>
+            <label>
+            <input type="checkbox" name="opportunities" value="Start up">Start up
+            <span class="checkmark"></span>
+            </label>
+            <label>
+            <input type="checkbox" name="opportunities" value="Open source">Open source
+            <span class="checkmark"></span>
+            </label>
+            </fieldset>
+        </div>
+        <div class="box3">
+            <label>Comment or Message:
+                <textarea name="applicantReason" rows="4" cols="40" required></textarea>
+            </label>
+        </div>
+          <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
